@@ -2,7 +2,23 @@
 a problem on ZJU acm
 
 
-<center><span class="bigProblemTitle">Mergeable Stack</span></center>
+<script type="text/x-mathjax-config">
+	  MathJax.Hub.Config({
+	    extensions: ["tex2jax.js"],
+	    jax: ["input/TeX", "output/SVG"],
+	    tex2jax: {
+	      inlineMath: [ ["\\(","\\)"] ],
+	      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+	      processEscapes: true
+	    },
+	  });
+	</script>
+	<script type="text/javascript"
+	   src="http://cdn.staticfile.org/mathjax/2.7.0/MathJax.js">
+	</script>
+
+	    <div id="content_body">
+            <center><span class="bigProblemTitle">Mergeable Stack</span></center>
             <hr>
             <center>
                 <font color="green">Time Limit: </font> 2 Seconds
@@ -86,3 +102,4 @@ EMPTY
 EMPTY
 EMPTY
 </pre>
+    </div>

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <list>
+#include <cstdio>
 using namespace std;
 
 list<int> l[300003];
@@ -11,11 +12,8 @@ void push(int s, int v)
 
 void pop(int s)
 {
-    list<int>::iterator i;
-    if(l[s].empty()) {cout << "EMPTY" << "\n";return;}
-    i = l[s].end();
-    i--;
-    cout << *i << "\n";
+    if(l[s].empty()) {printf("EMPTY\n");return;}
+    printf("%d\n",*(--l[s].end()));
     l[s].pop_back();
 }
 
@@ -25,6 +23,8 @@ void moves(int s, int t)
 }
 
 int main() {
+    std::ios::sync_with_stdio(false);
+    cin.tie(0);
     int T;
     cin >> T;
     for (;T--;)

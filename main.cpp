@@ -15,10 +15,11 @@ void pop(int s)
     if(l[s].empty()) {cout << "EMPTY" << "\n";return;}
     i = l[s].end();
     i--;
-    cout << *i;
+    cout << *i << "\n";
+    l[s].pop_back();
 }
 
-void move(int s, int t)
+void moves(int s, int t)
 {
     l[s].splice(l[s].end(),l[t]);
 }
@@ -48,7 +49,7 @@ int main() {
             else if (op == 3){
                 int s, t;
                 cin >> s >> t;
-                move(s, t);
+                moves(s, t);
             }
         }
     }

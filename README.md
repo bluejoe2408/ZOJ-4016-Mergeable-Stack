@@ -2,7 +2,7 @@
 a problem on ZJU acm
 
 
-	    <div id="content_body">
+
             <center><span class="bigProblemTitle">Mergeable Stack</span></center>
             <hr>
             <center>
@@ -87,4 +87,3 @@ EMPTY
 EMPTY
 EMPTY
 </pre>
-    </div>

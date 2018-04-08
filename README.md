@@ -2,21 +2,6 @@
 a problem on ZJU acm
 
 
-<script type="text/x-mathjax-config">
-	  MathJax.Hub.Config({
-	    extensions: ["tex2jax.js"],
-	    jax: ["input/TeX", "output/SVG"],
-	    tex2jax: {
-	      inlineMath: [ ["\\(","\\)"] ],
-	      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-	      processEscapes: true
-	    },
-	  });
-	</script>
-	<script type="text/javascript"
-	   src="http://cdn.staticfile.org/mathjax/2.7.0/MathJax.js">
-	</script>
-
 	    <div id="content_body">
             <center><span class="bigProblemTitle">Mergeable Stack</span></center>
             <hr>
@@ -26,7 +11,7 @@ a problem on ZJU acm
                 <font color="green">Memory Limit: </font> 65536 KB
             </center>
             <hr>
-            <p>Given \(n\) initially empty stacks, there are three types of operations:</p>
+            <p>Given $$n initially empty stacks, there are three types of operations:</p>
 
 <ul>
   <li><p>1 <var>s</var> <var>v</var>: Push the value \(v\) onto the top of the \(s\)-th stack.</p></li>

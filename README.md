@@ -1,6 +1,8 @@
 # ZOJ-4016-Mergeable-Stack
 a problem on ZJU acm
 
+problem-solving report:[link](https://blog.arata.xyz/2018/04/08/zoj4016/)
+
 
 ## Mergeable Stack
 <hr>
